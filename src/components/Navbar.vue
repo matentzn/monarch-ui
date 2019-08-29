@@ -69,7 +69,7 @@
             GitHub Organization
           </b-dropdown-item>
 
-          <b-dropdown-item href="https://medium.com/@MonarchInit/how-to-annotate-a-patients-phenotypic-profile-afc5773d6cdb" target="_blank" rel="noopener noreferrer">
+          <b-dropdown-item to="/documentation/phenotype-curation-guidelines">
             Phenotype Curation Guidelines
           </b-dropdown-item>
 

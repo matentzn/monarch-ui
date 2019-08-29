@@ -44,27 +44,6 @@
           <h4 class="node-label-label">
             <span v-html="node.label"/>&nbsp;<span class="node-label-id">{{ node.id }}</span>
           </h4>
-          <span v-if="node.taxon && node.taxon.id" class="node-label-taxon">
-            <a
-              :href="node.taxon.uri"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="node-label-id">
-              <em>{{ node.taxon.label }}</em>
-            </a>
-          </span>
-          &nbsp;
-
-          <!--
-              <a
-                v-if="entrezResult && entrezResult.abstractURL"
-                :href="entrezResult.abstractURL"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="node-label-id">
-                Entrez: {{ node.id }}
-              </a>
-             -->
         </div>
         <div v-if="node" class="container-fluid node-container">
 

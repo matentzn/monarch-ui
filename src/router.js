@@ -61,6 +61,11 @@ const router = new Router({
       component: require('@/views/Publications.md').default,
     },
     {
+      path: '/documentation/phenotype-curation-guidelines',
+      name: 'documentation-curation-guidelines',
+      component: require('@/views/PhenotypeCurationGuidelines.md').default,
+    },
+    {
       path: '/help/cite',
       name: 'about-citing',
       component: require('@/views/Citing.md').default,
